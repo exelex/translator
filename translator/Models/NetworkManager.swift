@@ -44,7 +44,7 @@ struct NetworkManager {
         
         do {
             let dataString = String(data: data, encoding: .utf8)
-            print(dataString)
+            
             if let json = try JSONSerialization.jsonObject(with: data, options:JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
                 if let jsonData = json["data"] as? [String : Any] {
                     if let translations = jsonData["translations"] as? [NSDictionary] {

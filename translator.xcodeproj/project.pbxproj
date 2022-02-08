@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D082EE2727B28AD900EAAE86 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082EE2627B28AD900EAAE86 /* HistoryTableViewController.swift */; };
 		D084011F25FAB63400F05653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084011E25FAB63400F05653 /* AppDelegate.swift */; };
 		D084012125FAB63400F05653 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084012025FAB63400F05653 /* SceneDelegate.swift */; };
 		D084012325FAB63400F05653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084012225FAB63400F05653 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D082EE2627B28AD900EAAE86 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		D084011B25FAB63400F05653 /* translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D084011E25FAB63400F05653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D084012025FAB63400F05653 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				D084012025FAB63400F05653 /* SceneDelegate.swift */,
 				D084012225FAB63400F05653 /* ViewController.swift */,
 				D084012425FAB63400F05653 /* Main.storyboard */,
+				D082EE2627B28AD900EAAE86 /* HistoryTableViewController.swift */,
 				D084012A25FAB63700F05653 /* Assets.xcassets */,
 				D084012C25FAB63700F05653 /* LaunchScreen.storyboard */,
 				D084012F25FAB63700F05653 /* Info.plist */,
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D082EE2727B28AD900EAAE86 /* HistoryTableViewController.swift in Sources */,
 				D084012325FAB63400F05653 /* ViewController.swift in Sources */,
 				D084012925FAB63400F05653 /* translator.xcdatamodeld in Sources */,
 				D084013925FAC7D100F05653 /* NetworkManager.swift in Sources */,
